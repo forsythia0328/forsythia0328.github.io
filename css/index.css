@@ -3265,6 +3265,7 @@ h1.page-title + .tag-cloud-list {
     padding: 40px 20px;
     color: var(--light-grey);
     text-align: center;
+    font-size: 1.5em;
 }
 #footer-wrap a {
     color: var(--light-grey);
@@ -3555,6 +3556,7 @@ h1.page-title + .tag-cloud-list {
 }
 #nav {
     position: absolute;
+    left: 0;
     top: 0;
     z-index: 90;
     display: -webkit-box;
