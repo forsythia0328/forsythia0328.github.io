@@ -222,7 +222,7 @@ hr:before,
 .note:not(.no-icon)::before {
     display: inline-block;
     font-weight: 600;
-    font-family: 'Font Awesome 6 Free';
+    font-family: "Noto Serif SC";
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
@@ -233,7 +233,7 @@ hr:before,
 #aside-content .card-widget,
 .layout > .recent-posts .pagination > *:not(.space) {
     border-radius: 8px;
-    background: var(--card-bg);
+    background: #fff0;
     -webkit-box-shadow: var(--card-box-shadow);
     box-shadow: var(--card-box-shadow);
     -webkit-transition: all 0.3s;
@@ -1376,9 +1376,9 @@ body {
     position: relative;
     min-height: 100%;
     background: var(--global-bg);
-    color: var(--font-color);
+    color: #000000;
     font-size: var(--global-font-size);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    font-family: "Noto Serif SC";
     line-height: 2;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1435,6 +1435,7 @@ h6 code {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    color: #f8f8f8;
 }
 hr {
     position: relative;
@@ -1493,7 +1494,7 @@ button {
     touch-action: manipulation;
 }
 a {
-    color: #99a9bf;
+    color: #ffffff;
     text-decoration: none;
     word-wrap: break-word;
     -webkit-transition: all 0.2s;
@@ -1511,7 +1512,7 @@ a:hover {
 #site-name,
 #aside-content .author-info__name,
 #aside-content .author-info__description {
-    font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    font-family: "Noto Serif SC";
 }
 .is-center {
     text-align: center;
@@ -1679,7 +1680,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
     font-size: var(--global-font-size);
-    font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+    font-family: "Noto Serif SC" !important;
 }
 #article-container code {
     padding: 2px 4px;
@@ -1950,7 +1951,7 @@ figure.highlight pre .javascript .function {
     height: 100%;
     vertical-align: top;
     text-align: center;
-    font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
+    font-family: "Noto Serif SC";
 }
 @media screen and (max-width: 768px) {
     .error404 #error-wrap .error-content .error-info {
@@ -2708,12 +2709,12 @@ h1.page-title + .tag-cloud-list {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
     display: block;
-    color: #858585;
+    color: #ffffffd6;
     font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
 #aside-content .aside-list > .aside-list-item .content > .comment {
-    color: var(--font-color);
+    color: #ffffffd6);
     font-size: 95%;
     line-height: 1.5;
     -webkit-line-clamp: 2;
@@ -2746,7 +2747,7 @@ h1.page-title + .tag-cloud-list {
     -ms-flex-direction: row;
     flex-direction: row;
     padding: 3px 10px;
-    color: var(--font-color);
+    color: #ffffffd6;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
